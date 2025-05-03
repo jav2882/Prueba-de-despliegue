@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Estado de los viveros</title>
+</head>
+<body style="margin: 0; min-height: 100vh; position: relative; padding-bottom: 35px;">
+    <header style="background-color: rgb(122, 196, 9); padding: 10px; width: 100%;">
+        <div style="display: flex; align-items: center;">
+            <img src="https://cdn-icons-png.flaticon.com/512/67/67944.png" width="50" height="50" alt="Pluma" style="margin-left: 10px;">
+            <h2 style="margin: 0 15px; display: flex; align-items: center; height: 50px;">Vivero Vital</h2>
+            <div style="display: flex; margin-left: auto; gap: 5px; margin-right: 10px;">
+                <img src="https://cdn-icons-png.freepik.com/512/93/93631.png" width="40" height="40" alt="Minimizar">
+                <img src="https://cdn-icons-png.freepik.com/512/13477/13477643.png" width="40" height="40" alt="Maximizar">
+                <img src="https://cdn-icons-png.flaticon.com/512/54/54972.png" width="40" height="40" alt="Cerrar">
+            </div>
+        </div>
+    </header>
+    <form style="flex: 1; padding: 35px; display: flex; gap: 30px;">
+        <!-- Primera columna -->
+        <div style="width: 30%;">
+            <div style="margin-bottom: 15px; padding: 10px;">
+                <p>Nombre del invernadero</p>
+                <input type="text" name="nombre" style="background-color: rgb(245, 255, 218); border: 2px solid green; border-radius: 10px; padding: 20px; width: 100%;">
+            </div>
+            <div style="margin-bottom: 15px; padding: 10px;">
+                <p>Superficie (m²)</p>
+                <input type="text" name="superficie" style="background-color: rgb(245, 255, 218); border: 2px solid green; border-radius: 10px; padding: 20px; width: 100%;">
+            </div>
+            <div style="margin-bottom: 15px; padding: 10px;">
+                <p>Tipo de cultivo</p>
+                <input type="text" name="cultivo" style="background-color: rgb(245, 255, 218); border: 2px solid green; border-radius: 10px; padding: 20px; width: 100%;">
+            </div>
+            <div style="margin-bottom: 15px; padding: 10px;">
+                <p>Fecha de creación</p>
+                <input type="date" name="fecha" style="background-color: rgb(245, 255, 218); border: 2px solid green; border-radius: 10px; padding: 20px; width: 100%;">
+            </div>
+            <div style="margin-bottom: 15px; padding: 10px;">
+                <p>Responsable del invernadero</p>
+                <input type="text" name="responsable" style="background-color: rgb(245, 255, 218); border: 2px solid green; border-radius: 10px; padding: 20px; width: 100%;">
+            </div>
+        </div>
+
+        <!-- Segunda columna -->
+        <div style="width: 30%;">
+            <div style="margin-bottom: 15px; padding: 10px;">
+                <p>Calidad de producción</p>
+                <input type="text" name="produccion" style="background-color: rgb(245, 255, 218); border: 2px solid green; border-radius: 10px; padding: 20px; width: 100%;">
+            </div>
+            <div style="margin-bottom: 15px; padding: 10px;">
+                <p>Sistema de riego</p>
+                <div style="position: relative;">
+                    <select name="riego" style="appearance: none; background-color: rgb(245, 255, 218); border: 2px solid green; border-radius: 10px; padding: 20px; width: 100%; font-size: 16px;">
+                        <option>Manual</option>
+                        <option selected>Automatizado</option>
+                        <option>Por goteo</option>
+                    </select>
+                    <img src="https://cdn-icons-png.freepik.com/512/10969/10969140.png"
+                        width="40"
+                        height="40"
+                        style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); pointer-events: none;">
+                </div>
+            </div>
+            <div style="margin-bottom: 15px; padding: 10px;">
+                <div style="padding: 20px; width: 100%; display: flex; gap: 20px; justify-content: flex-end;">
+                    <button type="submit" style="background-color: rgb(24, 145, 56); border-radius: 10px; padding: 15px 25px; text-align: center; cursor: pointer; color: white; font-weight: bold; border: none;">Guardar</button>
+                    <button type="reset" style="background-color: rgb(180, 26, 26); border-radius: 10px; padding: 15px 25px; text-align: center; cursor: pointer; color: white; font-weight: bold; border: none;">Cancelar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tercera columna -->
+        <div style="width: 30%;">
+            <div style="height: 100%; display: flex; justify-content: center; align-items: center;">
+                <div style="padding: 20px; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                    <img src="https://media.istockphoto.com/id/1130687594/es/vector/icono-3d-isom%C3%A9trico-de-efecto-invernadero-crecimiento-de-pl%C3%A1ntulas-en-invernadero.jpg?s=612x612&w=0&k=20&c=OY86FzM9bJBKlhRXZB1ZvdtnNdO-QDnkQpElsnu_Q-E=" alt="Vivero" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+        </div>
+    </form>
+    <form action="dos.html" method="get" style="margin: 0;">
+        <div style="position: absolute; bottom: 45px; right: 20px; background-color: rgb(24, 145, 56); border-radius: 10px; padding: 15px 25px; text-align: center; cursor: pointer; color: white; font-weight: bold;">
+            <button type="submit" style="background-color: rgb(24, 145, 56); border-radius: 10px; padding: 6px 17px; text-align: center; cursor: pointer; color: white; font-weight: bold; border: none;">Regresar</button>
+        </div>
+    </form>
+    <footer style="background-color: rgb(221, 165, 13); padding: 10px; position: absolute; bottom: 0; width: 100%;">
+        <div style="text-align: left; display: flex; justify-content: space-between;">
+            <div>Registrar Invernadero</div>
+            <div>© 2025 GreenGrowth S.A</div>
+        </div>
+    </footer>
+</body>
+</html>

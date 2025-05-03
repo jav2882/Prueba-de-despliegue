@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Estado de los viveros </title>
+    </head>
+    <body style="margin: 0; min-height: 100vh; position: relative; padding-bottom: 35px;">
+        <header style="background-color: rgb(122, 196, 9); padding: 10px;">
+            <div style="display: flex; align-items: center;">
+                <img src="https://cdn-icons-png.flaticon.com/512/67/67944.png" width="50" height="50" alt="Pluma" style="margin-left: 10px;">
+                <h2 style="margin: 0 15px; display: flex; align-items: center; height: 50px;">Vivero Vital</h2>
+                <div style="display: flex; margin-left: auto; gap: 5px; margin-right: 10px;">
+                    <img src="https://cdn-icons-png.freepik.com/512/93/93631.png" width="40" height="40" alt="Minimizar">
+                    <img src="https://cdn-icons-png.freepik.com/512/13477/13477643.png" width="40" height="40" alt="Maximizar">
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54972.png" width="40" height="40" alt="Cerrar">
+                </div>
+            </div>
+        </header>
+        
+        <main style="padding: 20px;">
+            <!-- Contenedor principal -->
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                
+                <!-- Fila superior: Barra de búsqueda e iconos -->
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <form action="tres.html" method="get" style="width: 600px; height: 20px; display: flex; align-items: center; background-color: white; border: 2px solid #ccc; border-radius: 10px; padding: 10px;">
+                        <input type="text" name="query" placeholder="Buscar invernadero..." 
+                            style="flex: 1; font-size: 18px; border: none; outline: none; height: 100%; padding: 10px;">
+                        <button type="submit" style="background: none; border: none; cursor: pointer;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Buscar" width="40" height="40">
+                        </button>
+                    </form>
+
+                    
+                    <!-- Iconos lado derecho -->
+                        <div style="display: flex; gap: 5px;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5683/5683514.png" width="80" height="80" alt="Encendido">
+                            
+                            <!-- Ícono de perfil como botón -->
+                            <form action="index.html" method="get" style="margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <img src="https://freesvg.org/img/abstract-user-flat-4.png" width="80" height="80" alt="Perfil">
+                                </button>
+                            </form>
+                        </div>
+                </div>
+                
+                <!-- Contenedor para filas de recuadros -->
+                <div style="display: flex; flex-direction: column; gap: 15px;">
+                    <!-- Fila 1 -->
+                    <div style="display: flex; gap: 10px;">
+                        <!-- Recuadro principal funcional con formulario -->
+                        <form action="tres.html" method="get" style="margin: 0;">
+                            <button type="submit" name="nombre" value="Invernadero los Andes" style="all: unset; cursor: pointer;">
+                                <div style="background-color: #737878; border: 2px solid; border-radius: 10px; padding: 20px; text-align: center; width: 280px;">
+                                    <h3 style="text-align: center; font-size: 14px; margin: 0;">Invernadero los Andes</h3>
+                                </div>
+                            </button>
+                        </form>
+                        <!-- Segundo recuadro -->
+                        <div style="background-color: #deeb51; border: 2px solid rgb(23, 168, 23); border-radius: 10px; padding: 20px; text-align: center; width: 100px;">
+                            <h3 style="text-align: center; font-size: 14px; margin: 0;">Operativo</h3>
+                        </div>
+                        <!-- Reemplaza cada bloque de botones con esto dentro de cada fila -->
+                        <div style="display: flex; background-color: #deeb51; border: 2px solid; border-color: rgb(23, 168, 23); border-radius: 10px; width: 400px;">
+                            <form action="tresEditable.html" method="get" style="flex: 1; padding: 20px; text-align: center; border-right: 1px solid rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Editar</h3>
+                                </button>
+                            </form>
+                            <form action="eliminar.html" method="get" style="flex: 1; padding: 20px; text-align: center; border-right: 1px solid rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Eliminar</h3>
+                                </button>
+                            </form>
+                            <form action="tres.html" method="get" style="flex: 1; padding: 20px; text-align: center; background-color: #b1c105; border-color: rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Detalles</h3>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                                    
+                <!-- Contenedor para filas de recuadros -->
+                <div style="display: flex; flex-direction: column; gap: 15px;">
+                    <!-- Fila 1 -->
+                    <div style="display: flex; gap: 10px;">
+                        <!-- Recuadro principal funcional con formulario -->
+                        <form action="tres.html" method="get" style="margin: 0;">
+                            <button type="submit" name="nombre" value="Invernadero los Andes" style="all: unset; cursor: pointer;">
+                                <div style="background-color: #737878; border: 2px solid; border-radius: 10px; padding: 20px; text-align: center; width: 280px;">
+                                    <h3 style="text-align: center; font-size: 14px; margin: 0;">Invernadero las Flores</h3>
+                                </div>
+                            </button>
+                        </form>
+                        <!-- Segundo recuadro -->
+                        <div style="background-color: #deeb51; border: 2px solid rgb(23, 168, 23); border-radius: 10px; padding: 20px; text-align: center; width: 100px;">
+                            <h3 style="text-align: center; font-size: 14px; margin: 0;">Reparación</h3>
+                        </div>
+                        <!-- Reemplaza cada bloque de botones con esto dentro de cada fila -->
+                        <div style="display: flex; background-color: #deeb51; border: 2px solid; border-color: rgb(23, 168, 23); border-radius: 10px; width: 400px;">
+                            <form action="tresEditable.html" method="get" style="flex: 1; padding: 20px; text-align: center; border-right: 1px solid rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Editar</h3>
+                                </button>
+                            </form>
+                            <form action="eliminar.html" method="get" style="flex: 1; padding: 20px; text-align: center; border-right: 1px solid rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Eliminar</h3>
+                                </button>
+                            </form>
+                            <form action="tres.html" method="get" style="flex: 1; padding: 20px; text-align: center; background-color: #b1c105; border-color: rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Detalles</h3>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                                    
+                <!-- Contenedor para filas de recuadros -->
+                <div style="display: flex; flex-direction: column; gap: 15px;">
+                    <!-- Fila 1 -->
+                    <div style="display: flex; gap: 10px;">
+                        <!-- Recuadro principal funcional con formulario -->
+                        <form action="tres.html" method="get" style="margin: 0;">
+                            <button type="submit" name="nombre" value="Invernadero los Andes" style="all: unset; cursor: pointer;">
+                                <div style="background-color: #737878; border: 2px solid; border-radius: 10px; padding: 20px; text-align: center; width: 280px;">
+                                    <h3 style="text-align: center; font-size: 14px; margin: 0;">Invernadero los Pinos</h3>
+                                </div>
+                            </button>
+                        </form>
+                        <!-- Segundo recuadro -->
+                        <div style="background-color: #deeb51; border: 2px solid rgb(23, 168, 23); border-radius: 10px; padding: 20px; text-align: center; width: 100px;">
+                            <h3 style="text-align: center; font-size: 14px; margin: 0;">Inspección</h3>
+                        </div>
+                        <!-- Reemplaza cada bloque de botones con esto dentro de cada fila -->
+                        <div style="display: flex; background-color: #deeb51; border: 2px solid; border-color: rgb(23, 168, 23); border-radius: 10px; width: 400px;">
+                            <form action="tresEditable.html" method="get" style="flex: 1; padding: 20px; text-align: center; border-right: 1px solid rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Editar</h3>
+                                </button>
+                            </form>
+                            <form action="eliminar.html" method="get" style="flex: 1; padding: 20px; text-align: center; border-right: 1px solid rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Eliminar</h3>
+                                </button>
+                            </form>
+                            <form action="tres.html" method="get" style="flex: 1; padding: 20px; text-align: center; background-color: #b1c105; border-color: rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Detalles</h3>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                                    
+                <!-- Contenedor para filas de recuadros -->
+                <div style="display: flex; flex-direction: column; gap: 15px;">
+                    <!-- Fila 1 -->
+                    <div style="display: flex; gap: 10px;">
+                        <!-- Recuadro principal funcional con formulario -->
+                        <form action="tres.html" method="get" style="margin: 0;">
+                            <button type="submit" name="nombre" value="Invernadero los Andes" style="all: unset; cursor: pointer;">
+                                <div style="background-color: #737878; border: 2px solid; border-radius: 10px; padding: 20px; text-align: center; width: 280px;">
+                                    <h3 style="text-align: center; font-size: 14px; margin: 0;">Invernadero el Mirador</h3>
+                                </div>
+                            </button>
+                        </form>
+                        <!-- Segundo recuadro -->
+                        <div style="background-color: #deeb51; border: 2px solid rgb(23, 168, 23); border-radius: 10px; padding: 20px; text-align: center; width: 100px;">
+                            <h3 style="text-align: center; font-size: 14px; margin: 0;">Expansión</h3>
+                        </div>
+                        <!-- Reemplaza cada bloque de botones con esto dentro de cada fila -->
+                        <div style="display: flex; background-color: #deeb51; border: 2px solid; border-color: rgb(23, 168, 23); border-radius: 10px; width: 400px;">
+                            <form action="tresEditable.html" method="get" style="flex: 1; padding: 20px; text-align: center; border-right: 1px solid rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Editar</h3>
+                                </button>
+                            </form>
+                            <form action="eliminar.html" method="get" style="flex: 1; padding: 20px; text-align: center; border-right: 1px solid rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Eliminar</h3>
+                                </button>
+                            </form>
+                            <form action="tres.html" method="get" style="flex: 1; padding: 20px; text-align: center; background-color: #b1c105; border-color: rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Detalles</h3>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                                    
+                <!-- Contenedor para filas de recuadros -->
+                <div style="display: flex; flex-direction: column; gap: 15px;">
+                    <!-- Fila 1 -->
+                    <div style="display: flex; gap: 10px;">
+                        <!-- Recuadro principal funcional con formulario -->
+                        <form action="tres.html" method="get" style="margin: 0;">
+                            <button type="submit" name="nombre" value="Invernadero los Andes" style="all: unset; cursor: pointer;">
+                                <div style="background-color: #737878; border: 2px solid; border-radius: 10px; padding: 20px; text-align: center; width: 280px;">
+                                    <h3 style="text-align: center; font-size: 14px; margin: 0;">Invernadero las Brisas</h3>
+                                </div>
+                            </button>
+                        </form>
+                        <!-- Segundo recuadro -->
+                        <div style="background-color: #deeb51; border: 2px solid rgb(23, 168, 23); border-radius: 10px; padding: 20px; text-align: center; width: 100px;">
+                            <h3 style="text-align: center; font-size: 14px; margin: 0;">Operativo</h3>
+                        </div>
+                        <!-- Reemplaza cada bloque de botones con esto dentro de cada fila -->
+                        <div style="display: flex; background-color: #deeb51; border: 2px solid; border-color: rgb(23, 168, 23); border-radius: 10px; width: 400px;">
+                            <form action="tresEditable.html" method="get" style="flex: 1; padding: 20px; text-align: center; border-right: 1px solid rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Editar</h3>
+                                </button>
+                            </form>
+                            <form action="eliminar.html" method="get" style="flex: 1; padding: 20px; text-align: center; border-right: 1px solid rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Eliminar</h3>
+                                </button>
+                            </form>
+                            <form action="tres.html" method="get" style="flex: 1; padding: 20px; text-align: center; background-color: #b1c105; border-color: rgb(23, 168, 23); margin: 0;">
+                                <button type="submit" style="all: unset; cursor: pointer;">
+                                    <h3 style="font-size: 14px; margin: 0;">Detalles</h3>
+                                </button>
+                            </form>
+                        </div>
+                            <!-- Recuadro Regresar -->
+                            <form action="dos.html" method="get" style="margin: 0;">
+                                <div style="position: absolute; bottom: 45px; right: 20px; background-color: rgb(24, 145, 56); border-radius: 10px; padding: 15px 25px; text-align: center; cursor: pointer; color: white; font-weight: bold;">
+                                    <button type="submit" style="background-color: rgb(24, 145, 56); border-radius: 10px; padding: 6px 17px; text-align: center; cursor: pointer; color: white; font-weight: bold; border: none;">Regresar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer style="background-color: rgb(221, 165, 13); padding: 10px; position: absolute; bottom: 0; width: 100%;">
+            <div style="text-align: left; display: flex; justify-content: space-between;">
+                <div>Control Invernadero</div>
+                <div>© 2025 GreenGrowth S.A</div>
+            </div>
+        </footer> 
+    </body>
+</html>

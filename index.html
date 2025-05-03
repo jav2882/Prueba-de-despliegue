@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Inicio de sesión </title>
+    </head>
+    <body>
+        <header style="background-color: rgb(122, 196, 9); ">
+            <div style="display: flex; left: auto;">
+                <img src="https://cdn-icons-png.flaticon.com/512/67/67944.png" width="50" height="50" alt="Pluma">
+                <h2 style="margin: 0; display: flex; align-items: center; height: 50px;">Vivero Vital</h2>
+                <div style="display: flex; margin-left: auto; gap: 5px;">
+                    <img src="https://cdn-icons-png.freepik.com/512/93/93631.png" width="40" height="40" alt="Minimizar">
+                    <img src="https://cdn-icons-png.freepik.com/512/13477/13477643.png" width="40" height="40" alt="Maximizar">
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54972.png" width="40" height="40" alt="Cerrar">
+                </div>
+            </div>
+        </header>
+        
+        <main style="flex: 1; display: flex; justify-content: center; align-items: center; padding: 20px;">
+            <form action="dos.html" method="GET">
+            <div style="display: flex; flex-direction: column; gap: 30px; width: 350px; align-items: center; padding: 50px;">
+                <!-- Cuadro de Iniciar Sesión -->
+                <div style="background-color: #ffffcc; border: 2px solid #ffcc00; border-radius: 10px; padding: 30px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%;">
+                    <h1 style="margin: 0; color: #333;">Iniciar Sesión</h1>
+                </div>
+                
+                <!-- Cuadro de Admin -->
+                <div style="background-color: #ffffcc; border: 1px solid #ffcc00; border-radius: 5px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 170px;">
+                    <input type="text" placeholder="Ingrese su usuario" style="width: 150px; padding: 10px; border: 1px solid #ffcc00; border-radius: 5px; text-align: center;">
+                </div>
+
+                <!-- Campo de contraseña -->
+                <div style="background-color: #ffffcc; border: 1px solid #ffcc00; border-radius: 5px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 170px;">
+                    <input type="password" placeholder="Ingrese su contraseña" style="width: 150px; padding: 10px; border: 1px solid #ffcc00; border-radius: 5px; text-align: center;">
+                </div>
+
+                <!-- Botón de iniciar sesión -->
+                <button id="login_button" type="submit" style="background-color: #82de67; border: none; border-radius: 5px; color: white; padding: 10px 20px; cursor: pointer;">
+                    Iniciar Sesión
+                </button>
+            </div>
+            </form>
+        </main>
+
+        <footer style="background-color: rgb(221, 165, 13); padding: 10px; position: absolute; bottom: 0; width: 100%; height: 15px;">
+            <div>© 2025 GreenGrowth S.A</div>
+        </footer>
+    </body>
+</html>

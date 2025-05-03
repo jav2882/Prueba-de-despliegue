@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Estado de los viveros </title>
+    </head>
+    <body style="margin: 0; min-height: 100vh; position: relative; padding-bottom: 35px;">
+        <header style="background-color: rgb(122, 196, 9); padding: 10px; width: 100%;">
+            <div style="display: flex; align-items: center;">
+                <img src="https://cdn-icons-png.flaticon.com/512/67/67944.png" width="50" height="50" alt="Pluma" style="margin-left: 10px;">
+                <h2 style="margin: 0 15px; display: flex; align-items: center; height: 50px;">Vivero Vital</h2>
+                <div style="display: flex; margin-left: auto; gap: 5px; margin-right: 10px;">
+                    <img src="https://cdn-icons-png.freepik.com/512/93/93631.png" width="40" height="40" alt="Minimizar">
+                    <img src="https://cdn-icons-png.freepik.com/512/13477/13477643.png" width="40" height="40" alt="Maximizar">
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54972.png" width="40" height="40" alt="Cerrar">
+                </div>
+            </div>
+        </header>
+        <div style="position: absolute; top: 70px; right: 20px; display: flex; align-items: center; gap: 10px;">
+            <div style="position: absolute; top: 70px; right: 20px; display: flex; align-items: center; gap: 10px;">
+                <img src="https://img.freepik.com/psd-premium/activar-icono-editable-archivo-psd_904887-102.jpg" width="60" height="60" alt="Toggle">                
+                <form action="index.html" method="get" style="margin: 0;">
+                    <button type="submit" style="border: none; background: none; padding: 0; cursor: pointer;">
+                        <img src="https://img.freepik.com/vector-premium/icono-perfil-usuario-estilo-plano-ilustracion-vector-avatar-miembro-sobre-fondo-aislado-concepto-negocio-signo-permiso-humano_157943-15752.jpg" width="80" height="80" style="border-radius: 50%; border: 2px solid gray;" alt="Usuario">
+                    </button>
+                </form>
+            </div>
+        </div>
+    <!-- Barra de búsqueda -->
+    <div style="padding: 15px; display: flex; align-items: center; justify-content: center;">
+        <input type="text" placeholder="Search" style="width: 70%; padding: 10px; border: 1px solid #ccc; border-radius: 25px; font-size: 16px;">
+    </div>
+    <!-- Menú de navegación con formularios -->
+    <div style="display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 20px;">
+        <form action="tresEditable.html" method="get" style="margin: 0;">
+            <button type="submit" style="background-color: #F2F7A1; border: 2px solid #03b300; border-radius: 5px; padding: 20px 30px; font-weight: bold; cursor: pointer;">
+                Registrar invernaderos
+            </button>
+        </form>
+
+        <form action="cuatro.html" method="get" style="margin: 0;">
+            <button type="submit" style="background-color: #F2F7A1; border: 2px solid #03b300; border-radius: 5px; padding: 20px 30px; font-weight: bold; cursor: pointer;">
+                Control invernaderos
+            </button>
+        </form>
+
+        <form action="cuatro.html" method="get" style="margin: 0;">
+            <button type="submit" style="background-color: #F2F7A1; border: 2px solid #03b300; border-radius: 5px; padding: 20px 30px; font-weight: bold; cursor: pointer;">
+                Control de humedad
+            </button>
+        </form>
+
+        <form action="cuatro.html"get" style="margin: 0;">
+            <button type="submit" style="background-color: #F2F7A1; border: 2px solid #03b300; border-radius: 5px; padding: 20px 30px; font-weight: bold; cursor: pointer;">
+                Control de piso
+            </button>
+        </form>
+
+        <form action="cuatro.html" method="get" style="margin: 0;">
+            <button type="submit" style="background-color: #F2F7A1; border: 2px solid #03b300; border-radius: 5px; padding: 20px 30px; font-weight: bold; cursor: pointer;">
+                Enfermedades
+            </button>
+        </form>
+    </div>
+
+    <!-- Filtro -->
+        <!-- Filtro -->
+    <details style="margin-left: 40px; margin-bottom: 10px; font-weight: bold;">
+        <summary style="cursor: pointer;">Filtrar: Invernaderos ▼</summary>
+
+    <!-- Tarjetas de invernaderos -->
+        <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-top: 15px;">
+        <!-- Tarjeta 1 -->
+            <div style="border: 1px solid #888; border-radius: 10px; padding: 15px; width: 600px;">
+                <a href="tres.html" style="display: block; margin-bottom: 8px; text-decoration: none; color: black;">
+                    <img src="imagenes/Pagina3foto.png" style="width: 100%; margin-top: 10px;">
+                </a>
+            </div>
+
+        <!-- Tarjeta 2 -->
+            <div style="border: 1px solid #888; border-radius: 10px; padding: 15px; width: 600px;">
+                <a href="tres.html" style="display: block; margin-bottom: 8px; text-decoration: none; color: black;">
+                    <img src="imagenes/Pagina3foto.png" alt="Invernadero" style="width: 100%; margin-top: 10px;">
+                </a>
+            </div>
+        </div>
+    </details>
+
+    <footer style="background-color: rgb(221, 165, 13); padding: 10px; position: absolute; bottom: 0; width: 100%;">
+        <div style="text-align: left; display: flex; justify-content: space-between;">
+            <div>Menú</div>
+            <div>© 2025 GreenGrowth S.A</div>
+        </div>
+    </footer> 
+    </body>
+</html>
